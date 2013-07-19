@@ -33,9 +33,8 @@
 
 #left-content {
   float: left;
-  width: 450px;
+  width: 500px;
   height: 700px;
-  margin-left: 20px;
   background: url(images/BookCover_Mock_1.1.png) no-repeat;
   background-size: contain;
 }
@@ -57,7 +56,7 @@ h3 {
 }
 
 #definition {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 #definition p {
@@ -82,6 +81,31 @@ a:hover {
   color: #EE2C3B;
 }
 
+button {
+  border: none;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+button:hover {
+  background-color: #EE2C3B;
+}
+
+input.input-text {
+  border: 2px solid #ededed;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+input:focus {
+  outline:none;
+}
+
+.attend {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
 </style>
 </head>
 <body>
@@ -97,7 +121,7 @@ a:hover {
           The freedom of physical expression and the unlimited number of styles
           human performance can adopt. Freestyle is unique for being
           unpredictable, yet capable of becoming optimal.
-          </p> 
+          </p>
         </div>
         <div id="explanation">
 
@@ -107,8 +131,8 @@ a:hover {
           </br> to coaching
           <a target="_newtab" href="http://games.crossfit.com/video/athlete-feature-annie-thorisdottir">Annie Thorisdottir</a>
           to become the first two time Fittest Woman on Earth, these last years have been a wild ride
-          and have fueled my latest endeavor: <strong>"Freestyle: Maximize 
-          sport and life performance with four basic movements"</strong>.
+          and have fueled my latest endeavor &#151; <i>Freestyle: Maximize
+            sport and life performance with four basic movements</i>.
           </p>
 
           <p>
@@ -124,12 +148,18 @@ Follow for updates, special events, and to preview early material.
           <p>- Coach Carl Paoli</p>
         </div>
 
-        <form class="form-inline" action="http://freestylethebook.us7.list-manage1.com/subscribe/post" method="post">
-          <input type="hidden" name="u" value="7b2f929e830ddccfe76a46ee2">
-          <input type="hidden" name="id" value="64a94118ff">
-          <input type="text" class="input-small" placeholder="Full Name" name="MERGE2" id="MERGE2">
-          <input type="email" class="input-small" placeholder="Email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0">
-          <button class="btn" name="button">Follow</button>
+        <form action="http://freestylethebook.us7.list-manage1.com/subscribe/post" method="post">
+          <div>
+            <input type="hidden" name="u" value="7b2f929e830ddccfe76a46ee2">
+            <input type="hidden" name="id" value="64a94118ff">
+            <input type="text" class="input-text" placeholder="Full Name" name="MERGE2" id="MERGE2">
+            <input type="email" class="input-text" placeholder="Email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0">
+            <button class="btn" name="button">Follow</button>
+          </div>
+          <div class="attend">
+            <input type="checkbox" id="group_1" name="group[2841][1]">
+            I would like to attend the July 24th seminar
+          </div>
         </form>
       </div>
     </div>
