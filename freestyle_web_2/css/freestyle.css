@@ -1,0 +1,38 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+.sidebar {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+}
+
+.sidebar .wordmark-img {
+  width: 150px;
+}
+
+.out-page-nav a {
+  color: #000;
+}
+
+.in-page-nav a {
+  color: #aaa;
+}
+
+.main-content-offset-row {
+  height: 100px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.five-reasons-row .carousel-indicators li {
+  border-color: rgb(205, 41, 56);
+}
