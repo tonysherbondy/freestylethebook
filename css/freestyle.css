@@ -45,7 +45,7 @@ body {
 }
 
 #book-hero-row {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .info-body-text {
@@ -107,11 +107,19 @@ body {
   color: #fff;
   text-decoration: none;
   background-color: #bbbdc0;
-  padding: 0px 10px;
+  padding: 10px 10px;
+}
+
+#book-hero-row li {
+  margin-top: 20px;
 }
 
 #book-hero-row a:hover {
   background-color: #00cfbb;
+}
+
+.book-img-xs {
+  width: 200px;
 }
 
 /* Get that glow 
