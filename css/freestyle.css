@@ -33,7 +33,19 @@ body {
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+.mobile-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(205, 41, 65);
+}
+
+#wordmark-img-white {
+  height: 70px;
+}
+
+@media (max-width: 767px) {
   body {
     padding-top: 70px;
   }
