@@ -126,8 +126,12 @@ body {
   color: #cc2532;
 }
 
+.signup-col a {
+  display: inline-block;
+}
+
 @media (max-width: 767px) {
   body {
-    padding-top: 80px;
+    padding-top: 70px;
   }
 }
