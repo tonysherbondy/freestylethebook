@@ -1,5 +1,8 @@
 /*
  * Globals
+ * red:   #cc2532
+ * green: #00cfbb
+ * gray:  #bbbdc0
  */
 
 body {
@@ -38,12 +41,45 @@ body {
   top: 0px;
   left: 0px;
   right: 0px;
-  background-color: rgb(205, 41, 65);
+  background-color: #cc2532;
 }
 
 #wordmark-img-white {
   height: 30px;
   vertical-align: middle;
+}
+
+/* Button Overrides */
+.btn {
+  border: 0;
+  border-radius: 0;
+  background-color: #bbbdc0;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #00cfbb;
+  color: #fff;
+}
+
+/* Get that glow 
+ */
+.signup-col input  {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #bbbdc0;
+}
+ 
+.signup-col input:focus {
+  box-shadow: 0 0 3px #00cfbb;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #00cfbb;
 }
 
 @media (max-width: 767px) {
