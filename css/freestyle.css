@@ -25,15 +25,41 @@ body {
 }
 
 .in-page-nav a {
-  color: #aaa;
+  color: #555;
+  text-decoration: none;
 }
 
+.in-page-nav a:hover {
+  color: #00cfbb;
+}
+
+/* Vertical offsets between rows
+ *
+ */
 .main-content-offset-row {
-  height: 40px;
+  height: 140px;
 }
 
-.row {
-  margin-top: 50px;
+#carl-info-row {
+  margin-top: 20px;
+}
+
+#book-hero-row {
+  margin-top: 20px;
+}
+
+.info-body-text {
+  font-size: .85em;
+}
+
+.info-body-text a {
+  color: #000;
+  text-decoration: none;
+}
+
+.info-body-text a:hover {
+  color: #00cfbb;
+  text-decoration: none;
 }
 
 .mobile-header {
@@ -62,6 +88,17 @@ body {
   color: #fff;
 }
 
+#book-hero-row a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #bbbdc0;
+  padding: 0px 10px;
+}
+
+#book-hero-row a:hover {
+  background-color: #00cfbb;
+}
+
 /* Get that glow 
  */
 .signup-col input  {
@@ -80,6 +117,10 @@ body {
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
   border: 1px solid #00cfbb;
+}
+
+.signup-col p {
+  color: #cc2532;
 }
 
 @media (max-width: 767px) {
