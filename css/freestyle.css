@@ -76,7 +76,7 @@ body {
 .mobile-header a {
   position: fixed;
   top: 15px;
-  right: 10px;
+  right: 15px;
   color: #fff;
   text-decoration: none;
 }
@@ -133,6 +133,7 @@ body {
   padding: 3px 0px 3px 3px;
   margin: 5px 1px 3px 0px;
   border: 1px solid #bbbdc0;
+  max-width: 100%; /* Don't let input go past column */
 }
  
 .signup-col input:focus {
@@ -148,6 +149,10 @@ body {
 
 .signup-col a {
   display: inline-block;
+}
+
+#definition-row {
+  margin-bottom: 70px;
 }
 
 @media (max-width: 767px) {
