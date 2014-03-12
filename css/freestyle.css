@@ -85,6 +85,11 @@ body {
   color: #00cfbb;
 }
 
+.mobile-footer {
+  background-color: #cc2532;
+  height: 10px;
+}
+
 #wordmark-img-white {
   height: 30px;
   vertical-align: middle;
