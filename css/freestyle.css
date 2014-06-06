@@ -33,6 +33,15 @@ body {
   color: #00cfbb;
 }
 
+a {
+  color: #00cfbb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00cfbb;
+}
+
 /* Vertical offsets between rows
  *
  */
@@ -44,8 +53,20 @@ body {
   margin-top: 20px;
 }
 
+img#kickit-contest {
+  padding-top: 60px;
+}
+
+img#carl-img {
+  padding-top: 60px;
+}
+
+#kickit-info-row {
+  margin-top: 20px;
+}
+
 #book-hero-row {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .info-body-text {
@@ -157,7 +178,7 @@ body {
 }
 
 #definition-row {
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
